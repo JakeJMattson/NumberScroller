@@ -1,4 +1,3 @@
-# NumberScroller
 <p align="center">
   <a href="LICENSE.md">
     <img src="https://img.shields.io/github/license/mattson543/NumberScroller.svg">
