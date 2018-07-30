@@ -1,9 +1,9 @@
 <p align="center">
   <a href="LICENSE.md">
-    <img src="https://img.shields.io/github/license/mattson543/NumberScroller.svg">
+    <img src="https://img.shields.io/github/license/JakeJMattson/NumberScroller.svg">
   </a>
-  <a href="https://GitHub.com/mattson543/NumberScroller/releases/">
-    <img src="https://img.shields.io/github/release/mattson543/NumberScroller.svg" alt="release">
+  <a href="https://GitHub.com/JakeJMattson/NumberScroller/releases/">
+    <img src="https://img.shields.io/github/release/JakeJMattson/NumberScroller.svg" alt="release">
   </a>
 </p>
 
