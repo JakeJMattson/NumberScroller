@@ -16,17 +16,20 @@ void initKeyboard()
 
 void typeKey()
 {
+	//Keycode for '0'
+	int zeroKey = 0x30;
+
 	//Determine virtual keycode
 	switch (currentKey)
 	{
 		case 10:
-			input.ki.wVk = 48;
+			input.ki.wVk = zeroKey;
 			break;
 		default:
-			input.ki.wVk = currentKey + 48;
+			input.ki.wVk = zeroKey + currentKey;
 			break;
 	}
-
+	
 	//Press key
 	input.ki.dwFlags = 0;
 	SendInput(1, &input, sizeof(INPUT));
