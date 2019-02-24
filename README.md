@@ -17,7 +17,3 @@ By using this code, you can navigate using scrolling instead.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-* [Mouse hooks](https://causeyourestuck.io/2015/12/27/set-a-mouse-hook-with-win32api-2/)
-* [Sending keys](https://stackoverflow.com/a/22419083)
