@@ -7,16 +7,13 @@ import java.awt.event.*;
 
 public class ScrollListener implements NativeMouseWheelListener {
 
-    int currentKey = 1;
-    Robot robot;
+    private int currentKey = 1;
+    private Robot robot;
 
     public ScrollListener() {
-
         try {
             robot = new Robot();
-        }
-        catch (AWTException e)
-        {
+        } catch (AWTException e) {
             e.printStackTrace();
         }
     }
