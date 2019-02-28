@@ -3,6 +3,7 @@ package io.github.jakejmattson.numberscroller;
 import org.jnativehook.mouse.*;
 
 import java.awt.*;
+import java.awt.event.*;
 
 public class ScrollListener implements NativeMouseWheelListener {
 
@@ -24,11 +25,11 @@ public class ScrollListener implements NativeMouseWheelListener {
     public void nativeMouseWheelMoved(NativeMouseWheelEvent nativeMouseWheelEvent) {
         currentKey -= nativeMouseWheelEvent.getWheelRotation();
 
-        if (currentKey < 1)
-            currentKey = 10;
-        else if (currentKey > 10)
-            currentKey = 1;
+        if (currentKey < 0)
+            currentKey = 9;
+        else if (currentKey > 9)
+            currentKey = 0;
 
-        System.out.println(currentKey);
+        robot.keyPress(KeyEvent.VK_0 + currentKey);
     }
 }
