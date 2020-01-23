@@ -1,4 +1,4 @@
-package io.github.jakejmattson.numberscroller;
+package me.jakejmattson.numberscroller;
 
 import org.jnativehook.mouse.*;
 
